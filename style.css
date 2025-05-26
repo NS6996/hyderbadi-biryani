@@ -5,17 +5,25 @@ body {
   margin: 0;
 }
 
-.wrap {
-  padding: 21px;
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 img {
   width: 260px;
   margin: 11px 0;
   border-radius: 5px;
+  align-self: flex-start;
 }
 
 p {
   font-size: 17px;
-  color: #6d4c41;
-} 
+  color: blue;
+  font-family: 'Georgia', serif;
+  text-align: left;
+  max-width: 300px;
+}
